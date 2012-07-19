@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB59A32115B84CD600EE167D /* SlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59A32015B84CD600EE167D /* SlidingViewController.m */; };
+		AB59A32515B8805000EE167D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59A32315B8805000EE167D /* LeftViewController.m */; };
+		AB59A32615B8805000EE167D /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB59A32415B8805000EE167D /* LeftViewController.xib */; };
 		ABC9BF4715B71B11003BA4D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC9BF4615B71B11003BA4D9 /* UIKit.framework */; };
 		ABC9BF4915B71B11003BA4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC9BF4815B71B11003BA4D9 /* Foundation.framework */; };
 		ABC9BF4B15B71B11003BA4D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC9BF4A15B71B11003BA4D9 /* CoreGraphics.framework */; };
@@ -18,17 +21,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB59A31F15B84CD600EE167D /* SlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingViewController.h; sourceTree = "<group>"; };
+		AB59A32015B84CD600EE167D /* SlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingViewController.m; sourceTree = "<group>"; };
+		AB59A32215B8805000EE167D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		AB59A32315B8805000EE167D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		AB59A32415B8805000EE167D /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
 		ABC9BF4215B71B11003BA4D9 /* Sliding View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sliding View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC9BF4615B71B11003BA4D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABC9BF4815B71B11003BA4D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABC9BF4A15B71B11003BA4D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ABC9BF4E15B71B11003BA4D9 /* Sliding View-Info.plist */ = {isa = PBXFileReference; path = "Sliding View-Info.plist"; sourceTree = "<group>"; };
+		ABC9BF4E15B71B11003BA4D9 /* Sliding View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sliding View-Info.plist"; sourceTree = "<group>"; };
 		ABC9BF5015B71B11003BA4D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABC9BF5215B71B11003BA4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABC9BF5415B71B11003BA4D9 /* Sliding View-Prefix.pch */ = {isa = PBXFileReference; path = "Sliding View-Prefix.pch"; sourceTree = "<group>"; };
-		ABC9BF5515B71B11003BA4D9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC9BF5415B71B11003BA4D9 /* Sliding View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sliding View-Prefix.pch"; sourceTree = "<group>"; };
+		ABC9BF5515B71B11003BA4D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABC9BF5615B71B11003BA4D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABC9BF5815B71B11003BA4D9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		ABC9BF5815B71B11003BA4D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABC9BF5915B71B11003BA4D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABC9BF5C15B71B11003BA4D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +87,11 @@
 			children = (
 				ABC9BF5515B71B11003BA4D9 /* AppDelegate.h */,
 				ABC9BF5615B71B11003BA4D9 /* AppDelegate.m */,
+				AB59A32215B8805000EE167D /* LeftViewController.h */,
+				AB59A32315B8805000EE167D /* LeftViewController.m */,
+				AB59A32415B8805000EE167D /* LeftViewController.xib */,
+				AB59A31F15B84CD600EE167D /* SlidingViewController.h */,
+				AB59A32015B84CD600EE167D /* SlidingViewController.m */,
 				ABC9BF5815B71B11003BA4D9 /* ViewController.h */,
 				ABC9BF5915B71B11003BA4D9 /* ViewController.m */,
 				ABC9BF5B15B71B11003BA4D9 /* ViewController.xib */,
@@ -150,6 +163,7 @@
 			files = (
 				ABC9BF5115B71B11003BA4D9 /* InfoPlist.strings in Resources */,
 				ABC9BF5D15B71B11003BA4D9 /* ViewController.xib in Resources */,
+				AB59A32615B8805000EE167D /* LeftViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +177,8 @@
 				ABC9BF5315B71B11003BA4D9 /* main.m in Sources */,
 				ABC9BF5715B71B11003BA4D9 /* AppDelegate.m in Sources */,
 				ABC9BF5A15B71B11003BA4D9 /* ViewController.m in Sources */,
+				AB59A32115B84CD600EE167D /* SlidingViewController.m in Sources */,
+				AB59A32515B8805000EE167D /* LeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +290,7 @@
 				ABC9BF6215B71B11003BA4D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

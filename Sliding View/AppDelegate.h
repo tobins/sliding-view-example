@@ -8,12 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#import "SlidingViewController.h"
+
+@class LeftViewController;
 @class ViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, SlidingViewDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) LeftViewController* leftViewController;
+@property (strong, nonatomic) SlidingViewController *slidingViewController;
 @property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) UIWindow *window;
 
 @end
